@@ -15,7 +15,7 @@
     "accounts": {
         "IND": [
             {"uid": "4390844816", "pass": "759E8A9A4E21FFCECDF203F905946C27D6A30A24D57344B789AA6018C7E293BF"},
-            {"uid": "YOUR_IND_UID_2", "pass": "PASSWORD_2"}
+        
         ],
         "BD": [
             {"uid": "YOUR_BD_UID_1", "pass": "PASSWORD_1"}
