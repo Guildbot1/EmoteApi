@@ -2,18 +2,26 @@
     "game_version": "1.120.1",
     "release_version": "OB52",
     "user_agent": "Dalvik/2.1.0 (Linux; U; Android 11; ASUS_Z01QD Build/PI)",
+    
     "encryption": {
         "key": [89, 103, 38, 116, 99, 37, 68, 69, 117, 104, 54, 37, 90, 99, 94, 56],
         "iv": [54, 111, 121, 90, 68, 114, 50, 50, 69, 51, 121, 99, 104, 106, 77, 37]
     },
+
     "headers_map": {
-        "IND": "0514",
-        "BD": "0519",
-        "SG": "0515",
-        "BR": "0515",
-        "NA": "0515",
-        "RU": "0515",
-        "ID": "0515",
-        "DEFAULT": "0515"
+        "IND": "0514", "BD": "0519", "DEFAULT": "0515"
+    },
+
+    "accounts": {
+        "IND": [
+            {"uid": "YOUR_IND_UID_1", "pass": "PASSWORD_1"},
+            {"uid": "YOUR_IND_UID_2", "pass": "PASSWORD_2"}
+        ],
+        "BD": [
+            {"uid": "YOUR_BD_UID_1", "pass": "PASSWORD_1"}
+        ],
+        "SG": [
+            {"uid": "YOUR_SG_UID_1", "pass": "PASSWORD_1"}
+        ]
     }
 }
